@@ -6,7 +6,7 @@ test("Simple google test @wip", async ({page}) => {
 
     //await page.waitForTimeout(3000);
 
-    let searchBox = page.locator("textarea[id='APjFqb11111111']");
+    let searchBox = page.locator("textarea[id='APjFqb']");
 
     // await searchBox.type("CYDEO");
     await searchBox.fill("CYDEO");
@@ -19,13 +19,7 @@ test("Simple google test @wip", async ({page}) => {
 
 });
 
-/*
-<textarea class="gLFyf" aria-controls="Alh6id" aria-owns="Alh6id" autofocus="" title="Search" 
-value="" jsaction="paste:puy29d;" aria-label="Search" placeholder="" aria-autocomplete="both" 
-aria-expanded="false" aria-haspopup="false" autocapitalize="off" autocomplete="off" 
-autocorrect="off" id="APjFqb" maxlength="2048" name="q" role="combobox" rows="1" 
-spellcheck="false" data-ved="0ahUKEwizipyd9cOKAxWFEFkFHdRyI5MQ39UDCAc"></textarea>
-*/
+
 
 //textarea[@class = 'gLFyf']
 
